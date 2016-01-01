@@ -23,4 +23,12 @@
     width = newWidth;
 }
 
+- (int)height {
+    return height;
+}
+
+- (int)width {
+    return width;
+}
+
 @end

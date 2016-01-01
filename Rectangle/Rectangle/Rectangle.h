@@ -17,4 +17,7 @@
 - (void)setWidth:(int)newWidth;
 - (void)setHeight:(int)newHeight width:(int)newWidth;
 
+- (int)height;
+- (int)width;
+
 @end
