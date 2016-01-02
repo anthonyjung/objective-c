@@ -10,7 +10,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSString *string = [[NSString alloc] initWithFormat:@"I am %d years old", 16];
+        NSString *string = [NSString stringWithFormat:@"I am %d years old.", 16];
         NSLog(@"%@", string);
     }
     return 0;
