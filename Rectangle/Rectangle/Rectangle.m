@@ -31,4 +31,8 @@
     return width;
 }
 
+- (NSString *)description {
+    return @"This is a rectangle class.";
+}
+
 @end

@@ -21,5 +21,7 @@ int main(int argc, const char * argv[]) {
     
     NSLog(@"Width: %d, Height: %d", [rect width], [rect height]);
     
+    NSLog(@"%@", [rect description]);
+    
     return 0;
 }
