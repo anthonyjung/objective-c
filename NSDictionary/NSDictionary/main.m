@@ -10,8 +10,12 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSDictionary *dict = [[NSDictionary alloc] initWithObjectsAndKeys:
+                              @"House pet", @"Dog", @"Flies around", @"Bird", nil];
+        
+        NSLog(@"%@", [dict objectForKey:@"Dog"]);
+        NSLog(@"%@", [dict objectForKey:@"Bird"]);
+        NSLog(@"%@", [dict objectForKey:@"Bob"]);
     }
     return 0;
 }
